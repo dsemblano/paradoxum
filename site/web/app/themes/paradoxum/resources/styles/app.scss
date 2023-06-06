@@ -1,0 +1,83 @@
+@import 'tailwindcss/base';
+
+@layer base {
+    h1 {
+      @apply text-3xl;
+    }
+    h2 {
+      @apply text-2xl;
+    }
+    h3 {
+      @apply text-lg;
+    }
+    a {
+      @apply text-blue-600 underline;
+    }
+  }
+
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'common/fonts';
+
+
+.hero-section__images {
+    @apply flex flex-col justify-between lg:flex-row bg-yellow-300;
+}
+
+// Header
+.menu {
+  @apply bg-green-300;
+
+}
+// Footer
+footer {
+    section {
+        .wp-block-group {
+            @apply flex w-full flex-col lg:flex-row;
+        }
+    }
+}
+
+// components
+.pzdiv {
+  margin: -10px auto 0px;
+  position: relative;
+  width: 20px;
+}
+
+.marca-pz {
+  background: url("../images/paradoxzero-logo__footer.png") left center no-repeat;
+  background-size: 149px 20px;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-indent: -9999px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 5px;
+
+}
+
+.v2 {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  background-size: 133px 20px!important;
+}
+
+// ficha tecnica
+#ficha-tecnica {
+  font-weight: 300;
+  th,
+  td {
+    font-weight: 300;
+    text-align: left;
+  }
+}
+
+.image-product {
+  @apply w-1/2;
+}

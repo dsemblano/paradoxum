@@ -1,0 +1,18 @@
+# Created by trellis-cli vcanary
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  paradoxum.org:
+    site_hosts:
+    - canonical: paradoxum.test
+      redirects:
+      - www.paradoxum.test
+    local_path: ../site
+    admin_email: admin@paradoxum.test
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: self-signed
+    cache:
+      enabled: false

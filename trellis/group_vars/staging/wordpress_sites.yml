@@ -1,0 +1,20 @@
+# Created by trellis-cli vcanary
+# Documentation: https://roots.io/trellis/docs/wordpress-sites/
+
+wordpress_sites:
+  paradoxum.org:
+    site_hosts:
+    - canonical: staging.paradoxum.org
+      redirects:
+      - www.staging.paradoxum.org
+    local_path: ../site
+    branch: master
+    repo: git@github.com:dsemblano/paradoxum.git
+    repo_subtree_path: site
+    multisite:
+      enabled: false
+    ssl:
+      enabled: false
+      provider: letsencrypt
+    cache:
+      enabled: false
