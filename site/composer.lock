@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c2699abbf0b714c2d198ebc91be4c72",
+    "content-hash": "04908e0d1c0afc1bc55fae7f9bb465c6",
     "packages": [
         {
             "name": "brick/math",
@@ -5211,24 +5211,6 @@
             "time": "2022-03-08T17:03:00+00:00"
         },
         {
-            "name": "wpackagist-plugin/acf-views",
-            "version": "1.9.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/acf-views/",
-                "reference": "tags/1.9.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/acf-views.1.9.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/acf-views/"
-        },
-        {
             "name": "wpackagist-plugin/regenerate-thumbnails",
             "version": "3.1.5",
             "source": {
@@ -5266,15 +5248,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "7.7.0",
+            "version": "7.7.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/7.7.0"
+                "reference": "tags/7.7.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.7.7.0.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.7.7.2.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
