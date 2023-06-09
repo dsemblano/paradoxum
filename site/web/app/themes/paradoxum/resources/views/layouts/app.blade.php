@@ -5,7 +5,7 @@
 @include('sections.header')
 
   <main id="main" class="main">
-    <section class="container page prose">
+    <section class="container page">
       @yield('content')
     </section>
   </main>
