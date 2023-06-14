@@ -50,27 +50,30 @@ footer {
   }
 
   .wc-block-components-product-image {
-    display: inline-block;
     position: relative;
-  
-  
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      box-sizing: border-box;
+   
+   
+     &::before {
+       content: '';
+       position: absolute;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
       border: 0.8rem solid transparent;
-      transition: border-color 0.3s ease;
-    }
-  
-    &:hover::before {
+       pointer-events: none;
+       transition: border-color 0.3s ease;
+     }
+   
+     &:hover::before {
       @apply border-pzred;
-    }
-  
-  }
+     }
+ 
+     &:hover a {
+       pointer-events: auto;
+     }
+   
+   }
 }
 
 
