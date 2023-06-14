@@ -11,7 +11,11 @@
       @apply text-lg;
     }
     a {
-      @apply text-blue-600 underline;
+      text-decoration: inherit;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 
