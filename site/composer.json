@@ -54,6 +54,7 @@
     "wpackagist-plugin/wp-enable-webp":">=1.0",
     "wpackagist-plugin/ewww-image-optimizer":">=7.0.2",
     "wpackagist-plugin/acf-extended":">=0.8.9.3",
+    "wpackagist-plugin/display-a-meta-field-as-block":">=1.1.4",
     "wpengine/advanced-custom-fields-pro": ">=6.1.6"
   },
   "require-dev": {

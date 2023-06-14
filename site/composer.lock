@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "649702b2faca868ce58f8671cbd8b235",
+    "content-hash": "f71dcd0d83ce3106cfdd349597a7a87a",
     "packages": [
         {
             "name": "brick/math",
@@ -5294,6 +5294,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/acf-extended/"
+        },
+        {
+            "name": "wpackagist-plugin/display-a-meta-field-as-block",
+            "version": "1.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/display-a-meta-field-as-block/",
+                "reference": "tags/1.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/display-a-meta-field-as-block.1.1.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/display-a-meta-field-as-block/"
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
