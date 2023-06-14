@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "04908e0d1c0afc1bc55fae7f9bb465c6",
+    "content-hash": "d97383e9f93ad09c5736c99c64996df6",
     "packages": [
         {
             "name": "brick/math",
@@ -940,6 +940,76 @@
                 "source": "https://github.com/laravel/framework"
             },
             "time": "2023-02-08T14:36:30+00:00"
+        },
+        {
+            "name": "illuminate/database",
+            "version": "v9.52.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/database.git",
+                "reference": "64f570ea10543b6f1777db5615e6386293e05fee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/64f570ea10543b6f1777db5615e6386293e05fee",
+                "reference": "64f570ea10543b6f1777db5615e6386293e05fee",
+                "shasum": ""
+            },
+            "require": {
+                "brick/math": "^0.9.3|^0.10.2|^0.11",
+                "ext-pdo": "*",
+                "illuminate/collections": "^9.0",
+                "illuminate/container": "^9.0",
+                "illuminate/contracts": "^9.0",
+                "illuminate/macroable": "^9.0",
+                "illuminate/support": "^9.0",
+                "php": "^8.0.2",
+                "symfony/console": "^6.0.9"
+            },
+            "suggest": {
+                "doctrine/dbal": "Required to rename columns and drop SQLite columns (^2.13.3|^3.1.4).",
+                "ext-filter": "Required to use the Postgres database driver.",
+                "fakerphp/faker": "Required to use the eloquent factory builder (^1.21).",
+                "illuminate/console": "Required to use the database commands (^9.0).",
+                "illuminate/events": "Required to use the observers with Eloquent (^9.0).",
+                "illuminate/filesystem": "Required to use the migrations (^9.0).",
+                "illuminate/pagination": "Required to paginate the result set (^9.0).",
+                "symfony/finder": "Required to use Eloquent model factories (^6.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Database\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Database package.",
+            "homepage": "https://laravel.com",
+            "keywords": [
+                "database",
+                "laravel",
+                "orm",
+                "sql"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/framework/issues",
+                "source": "https://github.com/laravel/framework"
+            },
+            "time": "2023-05-29T15:05:51+00:00"
         },
         {
             "name": "illuminate/events",
@@ -2520,33 +2590,34 @@
         },
         {
             "name": "roots/acorn",
-            "version": "v3.1.0",
+            "version": "v3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/roots/acorn.git",
-                "reference": "2ccffc169f9dba05499f7dbb6e2d30f2809312de"
+                "reference": "da254a5b77127f741003c6956db11f9c5a1493e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/roots/acorn/zipball/2ccffc169f9dba05499f7dbb6e2d30f2809312de",
-                "reference": "2ccffc169f9dba05499f7dbb6e2d30f2809312de",
+                "url": "https://api.github.com/repos/roots/acorn/zipball/da254a5b77127f741003c6956db11f9c5a1493e6",
+                "reference": "da254a5b77127f741003c6956db11f9c5a1493e6",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "illuminate/cache": "^9.47",
-                "illuminate/config": "^9.47",
-                "illuminate/console": "^9.47",
-                "illuminate/container": "^9.47",
-                "illuminate/contracts": "^9.47",
-                "illuminate/events": "^9.47",
-                "illuminate/filesystem": "^9.47",
-                "illuminate/http": "^9.47",
-                "illuminate/log": "^9.47",
-                "illuminate/routing": "^9.47",
-                "illuminate/support": "^9.47",
-                "illuminate/view": "^9.47",
+                "illuminate/cache": "^9.52",
+                "illuminate/config": "^9.52",
+                "illuminate/console": "^9.52",
+                "illuminate/container": "^9.52",
+                "illuminate/contracts": "^9.52",
+                "illuminate/database": "^9.52",
+                "illuminate/events": "^9.52",
+                "illuminate/filesystem": "^9.52",
+                "illuminate/http": "^9.52",
+                "illuminate/log": "^9.52",
+                "illuminate/routing": "^9.52",
+                "illuminate/support": "^9.52",
+                "illuminate/view": "^9.52",
                 "league/flysystem": "^3.0",
                 "php": "^8.0",
                 "ramsey/uuid": "^4.2.2",
@@ -2557,11 +2628,11 @@
             },
             "require-dev": {
                 "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
-                "filp/whoops": "^2.9",
                 "pestphp/pest": "^1.0",
                 "pestphp/pest-plugin-mock": "^1.0",
                 "phpcompatibility/php-compatibility": "^9.3",
                 "roave/security-advisories": "dev-master",
+                "spatie/laravel-ignition": "^1.6",
                 "spatie/pest-plugin-snapshots": "^1.0",
                 "spatie/temporary-directory": "^2.0",
                 "squizlabs/php_codesniffer": "^3.5",
@@ -2569,7 +2640,7 @@
                 "wp-cli/wp-cli": "^2.5"
             },
             "suggest": {
-                "filp/whoops": "Required for friendly error pages in development (^2.9)."
+                "spatie/laravel-ignition": "A beautiful error page for development (^1.6)."
             },
             "bin": [
                 "bin/acorn"
@@ -2608,19 +2679,15 @@
             "support": {
                 "forum": "https://discourse.roots.io/",
                 "issues": "https://github.com/roots/acorn/issues",
-                "source": "https://github.com/roots/acorn/tree/v3.1.0"
+                "source": "https://github.com/roots/acorn/tree/v3.2.0"
             },
             "funding": [
                 {
                     "url": "https://github.com/roots",
                     "type": "github"
-                },
-                {
-                    "url": "https://www.patreon.com/rootsdev",
-                    "type": "patreon"
                 }
             ],
-            "time": "2023-02-03T23:20:43+00:00"
+            "time": "2023-06-13T17:49:20+00:00"
         },
         {
             "name": "roots/bedrock-autoloader",
@@ -5211,6 +5278,24 @@
             "time": "2022-03-08T17:03:00+00:00"
         },
         {
+            "name": "wpackagist-plugin/ewww-image-optimizer",
+            "version": "7.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
+                "reference": "tags/7.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.7.0.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
+        },
+        {
             "name": "wpackagist-plugin/regenerate-thumbnails",
             "version": "3.1.5",
             "source": {
@@ -5248,15 +5333,15 @@
         },
         {
             "name": "wpackagist-plugin/woocommerce",
-            "version": "7.7.2",
+            "version": "7.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/woocommerce/",
-                "reference": "tags/7.7.2"
+                "reference": "tags/7.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woocommerce.7.7.2.zip"
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.7.8.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -5359,17 +5444,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Roave/SecurityAdvisories.git",
-                "reference": "22b763b5abdc69572b66c462cd85c2b2135f56aa"
+                "reference": "601b276d21df95e49f1802c7432b788cfaac15a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/22b763b5abdc69572b66c462cd85c2b2135f56aa",
-                "reference": "22b763b5abdc69572b66c462cd85c2b2135f56aa",
+                "url": "https://api.github.com/repos/Roave/SecurityAdvisories/zipball/601b276d21df95e49f1802c7432b788cfaac15a8",
+                "reference": "601b276d21df95e49f1802c7432b788cfaac15a8",
                 "shasum": ""
             },
             "conflict": {
                 "3f/pygmentize": "<1.2",
-                "admidio/admidio": "<4.1.9",
+                "admidio/admidio": "<4.2.8",
                 "adodb/adodb-php": "<=5.20.20|>=5.21,<=5.21.3",
                 "aheinze/cockpit": "<=2.2.1",
                 "akaunting/akaunting": "<2.1.13",
@@ -5520,7 +5605,7 @@
                 "friendsofsymfony/user-bundle": ">=1.2,<1.3.5",
                 "friendsoftypo3/mediace": ">=7.6.2,<7.6.5",
                 "froala/wysiwyg-editor": "<3.2.7",
-                "froxlor/froxlor": "<2.0.20",
+                "froxlor/froxlor": "<2.1",
                 "fuel/core": "<1.8.1",
                 "funadmin/funadmin": "<=3.2",
                 "gaoming13/wechat-php-sdk": "<=1.10.2",
@@ -5960,7 +6045,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-09T23:04:09+00:00"
+            "time": "2023-06-14T05:04:21+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
