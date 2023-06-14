@@ -7,7 +7,7 @@
         <table {{ $attributes }}>
             <thead>
                 <tr>
-                    <th colspan="2" class="title-main text-3xl">Ficha Técnica via blade</th>
+                    <th colspan="2" class="title-main text-3xl">Ficha Técnica</th>
                 </tr>
             </thead>
             <tbody>
