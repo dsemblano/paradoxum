@@ -1,5 +1,5 @@
 
-@if (have_rows('ficha_tecnica'))
+@if ( have_rows('ficha_tecnica') )
     @while (have_rows('ficha_tecnica'))
         @php the_row() @endphp
 
@@ -12,12 +12,12 @@
             </thead>
             <tbody>
                 {{-- Autor --}}
-                @if (get_sub_field('autor'))
+                @if (get_field('autor'))
                 <tr>
-                    <th>{{ get_sub_field_object('autor')['label'] }}</th>
+                    <th>Autor: </th>
                     <td>
-                        <a href="/autores/{{ strtolower(str_replace(' ', '', iconv('UTF-8', 'ASCII//TRANSLIT', get_sub_field('autor')))) }}">
-                            {{ the_sub_field('autor') }}
+                        <a href="/autores/{{ strtolower(str_replace(' ', '', iconv('UTF-8', 'ASCII//TRANSLIT', get_field('autor')))) }}">
+                            {{ the_field('autor') }}
                         </a>
                     </td>
                 </tr>

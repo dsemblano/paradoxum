@@ -53,6 +53,7 @@
     "wpackagist-plugin/wayfinder":">=1.1.6",
     "wpackagist-plugin/wp-enable-webp":">=1.0",
     "wpackagist-plugin/ewww-image-optimizer":">=7.0.2",
+    "wpackagist-plugin/acf-extended":">=0.8.9.3",
     "wpengine/advanced-custom-fields-pro": ">=6.1.6"
   },
   "require-dev": {

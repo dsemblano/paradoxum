@@ -43,27 +43,36 @@ footer {
 }
 
 // home books
-.wc-block-components-product-image {
-  display: inline-block;
-  position: relative;
+.wp-block-post { 
 
-  &::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    border: 0.8rem solid transparent;
-    transition: border-color 0.3s ease;
+  .is-acf-field {
+    @apply text-gray-400 text-lg text-center;
   }
 
-  &:hover::before {
-    @apply border-pzred;
+  .wc-block-components-product-image {
+    display: inline-block;
+    position: relative;
+  
+  
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      border: 0.8rem solid transparent;
+      transition: border-color 0.3s ease;
+    }
+  
+    &:hover::before {
+      @apply border-pzred;
+    }
+  
   }
-
 }
+
 
 // components
 .pzdiv {

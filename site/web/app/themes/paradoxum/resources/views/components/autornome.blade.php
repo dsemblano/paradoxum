@@ -1,9 +1,9 @@
-@if (have_rows('ficha_tecnica'))
-    @while (have_rows('ficha_tecnica'))
+@if (have_rows('autor'))
+    @while (have_rows('autor'))
         @php the_row() @endphp
 
         <div {{ $attributes }}>
-            <span>{{ the_sub_field('autor') }}</span>
+            <span>{{ the_field('autor') }}</span>
         </div>
                 
     @endwhile
