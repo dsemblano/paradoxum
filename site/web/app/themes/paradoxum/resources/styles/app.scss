@@ -77,8 +77,8 @@ footer {
 }
 
 // Page
-.page {
-  @apply my-8;
+section.container {
+  @apply mb-8 mt-32;
 
   min-height: 50vh;
 
