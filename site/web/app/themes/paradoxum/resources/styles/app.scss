@@ -76,6 +76,31 @@ footer {
    }
 }
 
+// Page
+.page {
+  @apply my-8;
+
+  min-height: 50vh;
+
+  .wp-block-themeisle-blocks-advanced-columns {
+
+    .wp-block-heading {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      @apply text-lg;
+    }
+
+  }
+}
+
+// .wp-block-media-text__media {
+//   img {
+//     @apply rounded-full;
+//   }
+// }
+
 
 // components
 .pzdiv {

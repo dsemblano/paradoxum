@@ -55,6 +55,9 @@
     "wpackagist-plugin/ewww-image-optimizer":">=7.0.2",
     "wpackagist-plugin/acf-extended":">=0.8.9.3",
     "wpackagist-plugin/display-a-meta-field-as-block":">=1.1.4",
+    "wpackagist-plugin/otter-blocks":">=2.3.0",
+    "wpackagist-plugin/stackable-ultimate-gutenberg-blocks":">=3.9.0",
+    "wpackagist-plugin/coblocks":">=3.0.3",
     "wpengine/advanced-custom-fields-pro": ">=6.1.6"
   },
   "require-dev": {
