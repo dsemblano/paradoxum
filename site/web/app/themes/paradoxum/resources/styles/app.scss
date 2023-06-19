@@ -82,15 +82,17 @@ section.container {
 
   min-height: 50vh;
 
+  article,
   .wp-block-themeisle-blocks-advanced-columns {
+    @apply prose max-w-none;
 
     .wp-block-heading {
       margin-bottom: 1rem;
     }
 
-    p {
-      @apply text-lg my-4;
-    }
+    // p {
+    //   @apply text-lg my-4;
+    // }
 
   }
 }
@@ -132,16 +134,20 @@ section.container {
   background-size: 133px 20px!important;
 }
 
-// ficha tecnica
-#ficha-tecnica {
-  font-weight: 300;
-  th,
-  td {
-    font-weight: 300;
-    text-align: left;
-  }
-}
+// Products
+.product {
+  @apply prose max-w-none;
 
-.image-product {
-  @apply w-1/2;
+  #ficha-tecnica {
+    font-weight: 300;
+    th,
+    td {
+      font-weight: 300;
+      text-align: left;
+    }
+  }
+
+  .image-product {
+    @apply w-1/2;
+  }
 }
