@@ -60,8 +60,10 @@
 		do_action( 'woocommerce_single_product_summary' );
 		?>
 		<x-fichatecnica id="ficha-tecnica" class="my-8" />
-		<button class="bg-transparent hover:bg-pzred text-pzred font-semibold hover:text-white py-4 px-6 border border-pzred hover:border-transparent">
-			<a class="hover:bg-pzred hover:text-white text-pzred no-underline" href="/livros">Todos os livros</a>
+		<button class="todoslivros">
+			<a href="/livros">
+				<span>todos os livros</span>
+			</a>
 		</button>
 	</div>
 

@@ -13,6 +13,7 @@
   }
   
   /* Typography */
-  .autor {
+  .autor,
+  .todoslivros {
     font-family: 'Josefin Sans', sans-serif;
   }

@@ -171,7 +171,7 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_r
 
 // Autor e conteúdo product description
 add_action( 'woocommerce_single_product_summary', function() {
-    echo '<span class="autor inline-block my-4 text-gray-400 text-2xl classeautor">' . get_field('autor') . '</span>';  
+    echo '<span class="autor inline-block my-4 text-gray-400 text-xl classeautor">' . get_field('autor') . '</span>';  
     echo the_content();
 });
 

@@ -54,15 +54,15 @@ footer {
    
    
      &::before {
-       content: '';
-       position: absolute;
-       top: 0;
-       left: 0;
-       width: 100%;
-       height: 100%;
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       border: 0.8rem solid transparent;
-       pointer-events: none;
-       transition: border-color 0.3s ease;
+      pointer-events: none;
+      transition: border-color 0.3s ease;
      }
    
      &:hover::before {
@@ -136,18 +136,30 @@ section.container {
 
 // Products
 .product {
-  @apply prose max-w-none prose-a:no-underline prose-h1:mb-0 prose-h2:mt-0 prose-h3:mt-0;
+  @apply prose max-w-none prose-a:no-underline prose-h1:mb-0 prose-h1:font-normal prose-h2:mt-0 prose-h3:mt-0;
 
   #ficha-tecnica {
-    font-weight: 300;
     th,
     td {
-      font-weight: 300;
+      font-weight: 500;
       text-align: left;
     }
   }
 
   .image-product {
     @apply w-1/2;
+  }
+}
+
+//button 
+.todoslivros {
+  @apply duration-500 hover:bg-pzred text-pzred font-semibold hover:text-white py-5 px-14 border-2 border-pzred hover:border-transparent text-base tracking-widest;
+
+  &:hover span {
+    @apply text-white;
+  }
+
+  a {
+    @apply text-pzred no-underline;
   }
 }
