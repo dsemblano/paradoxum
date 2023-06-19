@@ -30,7 +30,7 @@
 
 // Header
 .menu {
-  @apply bg-green-300;
+  // @apply bg-green-300;
 
 }
 // Footer
@@ -78,7 +78,7 @@ footer {
 
 // Page
 section.container {
-  @apply mb-8 mt-32;
+  @apply mb-8;
 
   min-height: 50vh;
 
@@ -136,7 +136,7 @@ section.container {
 
 // Products
 .product {
-  @apply prose max-w-none;
+  @apply prose max-w-none prose-a:no-underline prose-h1:mb-0 prose-h2:mt-0 prose-h3:mt-0;
 
   #ficha-tecnica {
     font-weight: 300;

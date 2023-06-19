@@ -22,7 +22,7 @@
           <div class="order-2">
             @include('partials/menu.searchicon')
           </div>
-          {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_id' => 'menu-principal-mobile', 'container_class' => 'menu', 'container_aria_label' => "Mobile Primary Menu", 'menu_class' => 'menu mt-4 grid grid-cols-2 gap-3 lg:flex lg:flex-col lg:py-4 text-ihcor lg:w-full justify-evenly
+          {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_id' => 'menu-principal-mobile', 'container_class' => 'menu', 'container_aria_label' => "Mobile Primary Menu", 'menu_class' => 'menu mt-4 grid grid-cols-2 gap-12 lg:flex lg:flex-col lg:py-4 text-ihcor lg:w-full justify-evenly
           xl:flex-row xl:mt-0 nav text-base relative' ]) !!}
         </div>
         {{-- END mobile --}}
@@ -36,7 +36,7 @@
             </picture>
   
             {{-- menu desktop --}}
-            {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_id' => 'menu-principal-desktop', 'container_class' => 'order-1 menu', 'container_aria_label' => "Desktop Primary Menu", 'menu_class' => 'menu mt-4 grid grid-cols-2 gap-3 lg:flex lg:flex-col lg:py-4 text-ihcor lg:w-full justify-evenly
+            {!! wp_nav_menu(['theme_location' => 'primary_navigation', 'container_id' => 'menu-principal-desktop', 'container_class' => 'order-1 menu', 'container_aria_label' => "Desktop Primary Menu", 'menu_class' => 'menu mt-4 grid grid-cols-2 gap-12 lg:flex lg:flex-col lg:py-4 text-ihcor lg:w-full justify-evenly
             xl:flex-row xl:mt-0 no-underline text-base xl:order-2' ]) !!}
   
           </div>
