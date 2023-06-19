@@ -16,17 +16,17 @@ $sub_pages_query = new WP_Query($sub_pages_args);
 @endphp
 
 @if ($sub_pages_query->have_posts())
-    <ul id="autores" class="no-underline grid grid-cols-4">
+    <ul id="autores" class="no-underline grid grid-cols-2 lg:grid-cols-4 gap-16">
         
     @while ($sub_pages_query->have_posts())
         @php $sub_pages_query->the_post() @endphp
-        <li class="text-center">
+        <li class="self-center justify-items-center text-center">
             <a href="{{ get_permalink() }}">
             @if (has_post_thumbnail())
-            {{ the_post_thumbnail('thumbnail', array( 'class' => 'rounded-full' ) ) }}
+            {{ the_post_thumbnail('thumbnail', array( 'class' => 'rounded-full w-full' ) ) }}
             @endif
 
-            <h2 class="break-words">{{ the_title() }}</h2>
+            <h2 class="break-words mt-6 text-xl">{{ the_title() }}</h2>
             </a>
         </li>
     @endwhile
