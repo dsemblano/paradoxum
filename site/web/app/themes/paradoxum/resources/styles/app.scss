@@ -153,13 +153,12 @@ section.container {
 
 //button 
 .todoslivros {
-  @apply duration-500 hover:bg-pzred text-pzred font-semibold hover:text-white py-5 px-14 border-2 border-pzred hover:border-transparent text-base tracking-widest;
 
   &:hover span {
     @apply text-white;
   }
 
   a {
-    @apply text-pzred no-underline;
+    @apply duration-500 hover:no-underline hover:bg-pzred hover:border-transparent hover:text-white text-pzred font-semibold py-5 px-14 border-2 border-pzred text-base tracking-widest;
   }
 }
