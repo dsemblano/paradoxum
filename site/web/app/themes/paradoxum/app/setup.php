@@ -135,7 +135,7 @@ add_action('widgets_init', function () {
     ] + $config);
 });
 
-add_theme_support('wc-product-gallery-zoom');
+// add_theme_support('wc-product-gallery-zoom');
 add_theme_support('wc-product-gallery-lightbox');
 add_theme_support('wc-product-gallery-slider');
 
@@ -163,10 +163,21 @@ remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_r
 //     $image_size = 'woocommerce_single'; // Replace this with your desired image size.
 //     $image_src = wp_get_attachment_image_src( $attachment_id, $image_size );
 //     if ($image_src) {
-//         $html = '<img src="' . esc_url( $image_src[0] ) . '" alt="' . esc_attr( get_post_meta( $attachment_id, '_wp_attachment_image_alt', true ) ) . '" />';
+//         $image_alt = esc_attr( get_post_meta( $attachment_id, '_wp_attachment_image_alt', true ) );
+//         $custom_class = 'woocommerce-product-gallery__image'; // Use the correct class for the WooCommerce Product Gallery Lightbox.
+        
+//         $html = '<a href="' . esc_url( $image_src[0] ) . '" class="' . $custom_class . '" data-rel="lightbox">';
+//         $html .= '<img src="' . esc_url( $image_src[0] ) . '" alt="' . $image_alt . '" />';
+//         $html .= '</a>';
+        
 //         return $html;
 //     }
 // }, 10, 2);
+
+
+
+
+
 
 
 // Autor e conteúdo product description

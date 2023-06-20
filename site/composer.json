@@ -58,6 +58,8 @@
     "wpackagist-plugin/otter-blocks":">=2.3.0",
     "wpackagist-plugin/stackable-ultimate-gutenberg-blocks":">=3.9.0",
     "wpackagist-plugin/coblocks":">=3.0.3",
+    "wpackagist-plugin/essential-blocks":">=4.1.2",
+    "wpackagist-plugin/product-blocks":">=2.7.1",
     "wpengine/advanced-custom-fields-pro": ">=6.1.6"
   },
   "require-dev": {
