@@ -22,6 +22,7 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 @import 'common/fonts';
+@import "animate.css/animate.css";
 
 
 .hero-section__images {
@@ -78,13 +79,14 @@ footer {
 
 // Page
 section.container {
-  @apply mb-8;
+  @apply mb-8 animate__animated animate__fadeInUp;
 
   min-height: 50vh;
 
   article,
   .wp-block-themeisle-blocks-advanced-columns {
     @apply prose max-w-none;
+    
 
     .wp-block-heading {
       margin-bottom: 1rem;
