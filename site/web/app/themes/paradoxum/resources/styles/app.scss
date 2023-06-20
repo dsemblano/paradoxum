@@ -89,8 +89,7 @@ footer {
 }
 
 // Page
-.page,
-:not(.home) {
+.page {
   section.container {
     @apply mb-8;
   
@@ -98,7 +97,7 @@ footer {
   
     article,
     .wp-block-themeisle-blocks-advanced-columns {
-      @apply prose max-w-none;
+      @apply prose max-w-none prose-img:mb-0;
       
   
       .wp-block-heading {
