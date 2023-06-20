@@ -16,7 +16,7 @@ $sub_pages_query = new WP_Query($sub_pages_args);
 @endphp
 
 @if ($sub_pages_query->have_posts())
-    <ul id="autores" class="no-underline grid grid-cols-2 lg:grid-cols-4 gap-40">
+    <ul id="autores" class="no-underline grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-40">
         
     @while ($sub_pages_query->have_posts())
         @php $sub_pages_query->the_post() @endphp
