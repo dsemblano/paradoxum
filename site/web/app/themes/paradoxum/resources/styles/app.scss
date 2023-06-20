@@ -89,26 +89,30 @@ footer {
 }
 
 // Page
-section.container {
-  @apply mb-8;
-
-  min-height: 50vh;
-
-  article,
-  .wp-block-themeisle-blocks-advanced-columns {
-    @apply prose max-w-none;
-    
-
-    .wp-block-heading {
-      margin-bottom: 1rem;
+.page,
+:not(.home) {
+  section.container {
+    @apply mb-8;
+  
+    min-height: 50vh;
+  
+    article,
+    .wp-block-themeisle-blocks-advanced-columns {
+      @apply prose max-w-none;
+      
+  
+      .wp-block-heading {
+        margin-bottom: 1rem;
+      }
+  
+      // p {
+      //   @apply text-lg my-4;
+      // }
+  
     }
-
-    // p {
-    //   @apply text-lg my-4;
-    // }
-
   }
 }
+
 
 // .wp-block-media-text__media {
 //   img {
