@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f243d70c6e96e6d6c0cac1d2380940cb",
+    "content-hash": "3e34b32c044a8007c7554e1ebabfce76",
     "packages": [
         {
             "name": "brick/math",
@@ -5528,6 +5528,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce-pagseguro/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-asset-clean-up",
+            "version": "1.3.9.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-asset-clean-up/",
+                "reference": "tags/1.3.9.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-asset-clean-up.1.3.9.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-asset-clean-up/"
         },
         {
             "name": "wpackagist-plugin/wp-enable-webp",
