@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3e34b32c044a8007c7554e1ebabfce76",
+    "content-hash": "5208cec7058b9d39270b1670f0733722",
     "packages": [
         {
             "name": "brick/math",
@@ -5314,24 +5314,6 @@
             "homepage": "https://wordpress.org/plugins/autodescription/"
         },
         {
-            "name": "wpackagist-plugin/coblocks",
-            "version": "3.0.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/coblocks/",
-                "reference": "tags/3.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/coblocks.3.0.3.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/coblocks/"
-        },
-        {
             "name": "wpackagist-plugin/display-a-meta-field-as-block",
             "version": "1.1.4",
             "source": {
@@ -5348,24 +5330,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/display-a-meta-field-as-block/"
-        },
-        {
-            "name": "wpackagist-plugin/essential-blocks",
-            "version": "4.1.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/essential-blocks/",
-                "reference": "tags/4.1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/essential-blocks.4.1.2.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/essential-blocks/"
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
@@ -5386,40 +5350,22 @@
             "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
         },
         {
-            "name": "wpackagist-plugin/otter-blocks",
-            "version": "2.3.1",
+            "name": "wpackagist-plugin/generateblocks",
+            "version": "1.7.3",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/otter-blocks/",
-                "reference": "tags/2.3.1"
+                "url": "https://plugins.svn.wordpress.org/generateblocks/",
+                "reference": "tags/1.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/otter-blocks.2.3.1.zip"
+                "url": "https://downloads.wordpress.org/plugin/generateblocks.1.7.3.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/otter-blocks/"
-        },
-        {
-            "name": "wpackagist-plugin/product-blocks",
-            "version": "2.7.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/product-blocks/",
-                "reference": "tags/2.7.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/product-blocks.2.7.1.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/product-blocks/"
+            "homepage": "https://wordpress.org/plugins/generateblocks/"
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
