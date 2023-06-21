@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5208cec7058b9d39270b1670f0733722",
+    "content-hash": "0e0567c8c48c497237fe2d701a6eb329",
     "packages": [
         {
             "name": "brick/math",
@@ -5366,6 +5366,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/generateblocks/"
+        },
+        {
+            "name": "wpackagist-plugin/otter-blocks",
+            "version": "2.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/otter-blocks/",
+                "reference": "tags/2.3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/otter-blocks.2.3.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/otter-blocks/"
         },
         {
             "name": "wpackagist-plugin/regenerate-thumbnails",
