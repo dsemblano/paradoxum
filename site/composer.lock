@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a6ae42ad1acfae6df0c72fc41b484d31",
+    "content-hash": "f2bd1b323e9be9c479067b2077705c52",
     "packages": [
         {
             "name": "brick/math",
@@ -5546,24 +5546,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woo-cart-all-in-one/"
-        },
-        {
-            "name": "wpackagist-plugin/woo-checkout-field-editor-pro",
-            "version": "1.9.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/woo-checkout-field-editor-pro/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/woo-checkout-field-editor-pro.zip?timestamp=1685975099"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/woo-checkout-field-editor-pro/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
