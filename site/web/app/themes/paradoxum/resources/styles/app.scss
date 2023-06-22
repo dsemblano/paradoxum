@@ -47,12 +47,20 @@ footer {
 /* Custom media query for mobile devices */
 @media only screen and (max-width: 767px) {
 .home,
-.livros {
-  .livros-container ul li {
-    width: calc(50% - 0.65rem);
+  .livros {
+    .livros-container ul li {
+      width: calc(50% - 0.65rem);
 
+    }
   }
 }
+
+.wp-block-stackable-carousel {
+  .wp-block-stackable-heading {
+    h2 {
+      @apply text-gray-400 font-semibold text-base tracking-widest;
+    }
+  }
 }
 
 .wp-block-post { 
