@@ -4,8 +4,18 @@
 
 @include('sections.header')
 
-  <main id="main" class="main mt-8">
+  <main id="main" class="main">
+    @if (! is_front_page())
+    
+    <section class="container mt-8">
       @yield('content')
+    </section>
+
+    @else
+
+    @yield('content')
+
+    @endif
   </main>
 
   @hasSection('sidebar')
