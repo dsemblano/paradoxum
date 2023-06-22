@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eb453c3bc012097610acb6d65e419ba7",
+    "content-hash": "fa5c4f524d3bff2295e6b6c5ed0691a1",
     "packages": [
         {
             "name": "brick/math",
@@ -5492,6 +5492,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wayfinder/"
+        },
+        {
+            "name": "wpackagist-plugin/woo-cart-all-in-one",
+            "version": "1.1.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-cart-all-in-one/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-cart-all-in-one.zip?timestamp=1681289580"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-cart-all-in-one/"
         },
         {
             "name": "wpackagist-plugin/woocommerce",
