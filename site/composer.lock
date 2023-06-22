@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2bd1b323e9be9c479067b2077705c52",
+    "content-hash": "106aa9bf59973f765d9f95b3d5d66469",
     "packages": [
         {
             "name": "brick/math",
@@ -5600,6 +5600,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/woocommerce-correios/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce-menu-bar-cart",
+            "version": "2.14.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce-menu-bar-cart/",
+                "reference": "tags/2.14.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce-menu-bar-cart.2.14.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce-menu-bar-cart/"
         },
         {
             "name": "wpackagist-plugin/woocommerce-mercadopago",
