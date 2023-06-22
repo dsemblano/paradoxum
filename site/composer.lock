@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ba7d024a7768f1c88c15127bbf95d3",
+    "content-hash": "eb453c3bc012097610acb6d65e419ba7",
     "packages": [
         {
             "name": "brick/math",
@@ -5296,6 +5296,24 @@
             "homepage": "https://wordpress.org/plugins/acf-extended/"
         },
         {
+            "name": "wpackagist-plugin/advanced-gutenberg",
+            "version": "3.1.4.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-gutenberg/",
+                "reference": "tags/3.1.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-gutenberg.3.1.4.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-gutenberg/"
+        },
+        {
             "name": "wpackagist-plugin/autodescription",
             "version": "4.2.8",
             "source": {
@@ -5312,6 +5330,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/autodescription/"
+        },
+        {
+            "name": "wpackagist-plugin/content-blocks-builder",
+            "version": "2.3.16",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/content-blocks-builder/",
+                "reference": "tags/2.3.16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/content-blocks-builder.2.3.16.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/content-blocks-builder/"
         },
         {
             "name": "wpackagist-plugin/display-a-meta-field-as-block",

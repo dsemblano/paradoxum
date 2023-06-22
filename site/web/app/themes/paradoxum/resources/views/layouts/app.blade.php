@@ -4,10 +4,8 @@
 
 @include('sections.header')
 
-  <main id="main" class="main">
-    <section class="container mt-8">
+  <main id="main" class="main mt-8">
       @yield('content')
-    </section>
   </main>
 
   @hasSection('sidebar')
