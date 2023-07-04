@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c884746992fcd02807b39ee511e96862",
+    "content-hash": "da02f8f6bdcb51794edaf5124bb15590",
     "packages": [
         {
             "name": "brick/math",
@@ -5456,6 +5456,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/otter-blocks/"
+        },
+        {
+            "name": "wpackagist-plugin/popup-maker",
+            "version": "1.18.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/popup-maker/",
+                "reference": "tags/1.18.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/popup-maker.1.18.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/popup-maker/"
         },
         {
             "name": "wpackagist-plugin/redirection",
